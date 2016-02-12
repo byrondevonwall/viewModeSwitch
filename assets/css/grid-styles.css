@@ -5,19 +5,93 @@ element selectors
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Lato', Calibri, Arial, sans-serif;
 
+}
+
+li {
+  display: inline-block;
+  width: 33%;
+  float: left;
+}
+
+h1{
+  text-align: center;
+  color: #47a3da;
+  font-size: 1.75em;
+  font-weight: bold;
+}
+
+img {
+  margin: 8% 26% 2% 26%;
+}
+
+a {
+  color: white;
+}
 
 /***************************************************************
 class selectors
 ****************************************************************/
+  .body-wrapper{
+  margin:2% 14%;
+  border: 3px solid #47a3da;
+  /*width: 70%;*/
+}
 
+.wrapper-nav {
+  display: inline-block;
+  width: 95%;
+  margin: 0 2.5% 2% 2.5%;
+  border-bottom: 3px solid #47a3da;
+}
 
+.icons-wrapper i {
+  float: right;
+  margin: 2.5% .75% ;
+}
 
+.fa-list-ul {
+  color: #c0c0c0;
+}
 
+.fa-list-ul:hover {
+  color: #47a3da;
+}
 
+.fa-th {
+  color: #47a3da;
+}
 
+.wrapper-content {
+  display: inline-block;
+}
 
+.price {
+  text-align: center;
+  color: #c0c0c0;
+  font-size: 1.5em;
+  margin: 4% 0;
+}
 
+.details {
+  text-align: center;
+  color: #47a3da;
+}
+
+.icon {
+  margin: 8% 0 10% 32%;
+  display: inline-block;
+  text-decoration: none;
+  background-color: #47a3da;
+  padding: 5%;
+  border-radius: .2em;
+}
+
+.icon:hover{
+  background-color: #02639d;
+}
 
 
 

@@ -1,0 +1,98 @@
+
+/***************************************************************
+element selectors
+****************************************************************/
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', Calibri, Arial, sans-serif;
+}
+
+li {
+  display: block;
+  margin: 0 0 3% 0;
+}
+h1{
+  display: inline-block;
+  color: #47a3da;
+  font-size: 1.75em;
+  font-weight: bold;
+  width: 20%;
+  vertical-align: middle;
+
+}
+
+img {
+  width: 10%;
+  height: 10%;
+  vertical-align: middle;
+}
+
+
+a {
+  color: white;
+}
+
+/***************************************************************
+class selectors
+****************************************************************/
+  .body-wrapper{
+  margin:2% 14%;
+  border: 3px solid #47a3da;
+  /*width: 70%;*/
+}
+
+.wrapper-nav {
+  display: inline-block;
+  width: 95%;
+  margin: 0 2.5% 2% 2.5%;
+  border-bottom: 3px solid #47a3da;
+}
+
+.icons-wrapper i {
+  float: right;
+  margin: 2.5% .75% ;
+}
+
+.fa-list-ul {
+  color: #47a3da;
+}
+
+.fa-th:hover {
+  color: #47a3da;
+}
+
+.fa-th {
+  color: #c0c0c0;
+}
+
+.price {
+  color: #c0c0c0;
+  font-size: 1.5em;
+  display: inline-block;
+  width: 15%;
+  vertical-align: middle;
+}
+
+.details {
+  display: inline-block;
+  color: #47a3da;
+  width: 38%;
+  vertical-align: middle;
+}
+
+.icon {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #47a3da;
+  border-radius: .2em;
+  padding: 2% ;
+  vertical-align: middle;
+}
+
+.icon:hover{
+  background-color: #02639d;
+}
