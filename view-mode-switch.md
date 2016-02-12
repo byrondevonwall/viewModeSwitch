@@ -10,6 +10,7 @@ color changes, total style change.
 By switching between css style sheets on header-icon click.
 ###What existing HTML elements are changed?
 the link to each css stylesheet.
+The html elements the css acts upon are divs wrapping content in ul li's.  the stylesheets change how these li's act.
 ###What new HTML elements are created?
 I'm actually not sure that there are any elements changed.  I'm currently operating on the assumption that the links to both stylesheets exist in the html, we are just changing which sheet is actively being linked.
 ###What CSS styles are used to produce the effect?
