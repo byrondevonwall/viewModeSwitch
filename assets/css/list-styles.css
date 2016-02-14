@@ -36,6 +36,17 @@ a {
   color: white;
 }
 
+/*clearfix*/
+ul:before,
+ul:after {
+  content: "";
+  display: table;
+}
+
+ul:after{
+  clear: both;
+}
+
 /***************************************************************
 class selectors
 ****************************************************************/
@@ -95,4 +106,53 @@ class selectors
 
 .icon:hover{
   background-color: #02639d;
+}
+
+
+/***************************************************************
+media queries
+****************************************************************/
+
+@media screen and (max-width: 75em) {
+  .details {
+    width: 30%;
+  }
+
+  .price {
+    font-size: 1.2em;
+  }
+
+  h1 {
+    font-size: 1.5em
+  }
+}
+
+@media screen and (max-width: 50em) {
+
+  .body-wrapper {
+    width: 2% 10%;
+  }
+
+  .details {
+    width: 100%;
+    padding: 5%;
+  }
+
+  h1 {
+    font-size: 1.75em;
+    width: 25%
+  }
+
+  .price {
+    font-size: 1.5em;
+    width: 20%
+  }
+
+  img {
+    width: 20%;
+  }
+
+  .icon {
+ margin: 0 15px 30px 15px;
+
 }

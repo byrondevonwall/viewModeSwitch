@@ -7,8 +7,8 @@ element selectors
 
 body {
   font-family: 'Lato', Calibri, Arial, sans-serif;
-
 }
+
 
 li {
   display: inline-block;
@@ -29,6 +29,17 @@ img {
 
 a {
   color: white;
+}
+
+/*clearfix*/
+ul:before,
+ul:after {
+  content: "";
+  display: table;
+}
+
+ul:after{
+  clear: both;
 }
 
 /***************************************************************
